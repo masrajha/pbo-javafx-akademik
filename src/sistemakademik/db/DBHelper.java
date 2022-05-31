@@ -31,7 +31,7 @@ public class DBHelper {
                     //            Class.forName("com.mysql.cj.jdbc.Driver");
                     Class.forName("org.sqlite.JDBC");
                     conn = DriverManager.getConnection(SQConn);
-                    System.out.println("Koneksi Berhasil");
+                    System.out.println("Koneksi Sukses");
                 } catch (ClassNotFoundException ex) {
                     System.out.println("Library blm ada");
                     //            Logger.getLogger(DBHelper.class.getName()).log(Level.SEVERE, null, ex);
